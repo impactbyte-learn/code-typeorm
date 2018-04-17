@@ -8,8 +8,8 @@ createConnection()
 
     const todo = new Todo();
 
-    todo.text = "Learn JavaScript";
-    todo.point = 3;
+    todo.text = "Learn JavaScript Express";
+    todo.point = 100;
 
     await connection.manager.save(todo);
 
