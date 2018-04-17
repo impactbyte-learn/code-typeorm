@@ -1,7 +1,7 @@
 {
   "name": "typeorm-sqlite",
-  "version": "0.0.1",
-  "description": "Awesome project developed with TypeORM.",
+  "version": "0.1.0",
+  "description": "TypeORM with SQLite.",
   "devDependencies": {
     "@types/node": "8.10.8",
     "ts-node": "3.3.0",

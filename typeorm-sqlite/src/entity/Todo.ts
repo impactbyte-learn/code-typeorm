@@ -1,12 +1,10 @@
 import { Entity, PrimaryGeneratedColumn, Column } from "typeorm";
 
 @Entity()
-export class User {
+export class Todo {
   @PrimaryGeneratedColumn() id: number;
 
-  @Column() firstName: string;
+  @Column() text: string;
 
-  @Column() lastName: string;
-
-  @Column() age: number;
+  @Column() point: number;
 }
