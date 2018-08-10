@@ -3,14 +3,14 @@
   "version": "0.1.0",
   "description": "TypeORM with SQLite.",
   "devDependencies": {
-    "@types/node": "8.10.8",
-    "ts-node": "3.3.0",
-    "typescript": "2.5.2"
+    "@types/node": "10.5.7",
+    "ts-node": "7.0.0",
+    "typescript": "3.0.1"
   },
   "dependencies": {
-    "typeorm": "0.1.20",
+    "typeorm": "0.2.7",
     "reflect-metadata": "^0.1.10",
-    "sqlite3": "^3.1.10"
+    "sqlite3": "^4.0.2"
   },
   "scripts": {
     "start": "ts-node src/index.ts"
