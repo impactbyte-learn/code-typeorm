@@ -1,0 +1,12 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "typeorm-mongodb/package.json",
+        "typeorm-mysql/package.json",
+        "typeorm-postgresql/package.json",
+        "typeorm-sqlite/package.json"
+      ]
+    }
+  }
+}
